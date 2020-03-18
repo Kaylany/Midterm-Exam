@@ -2,7 +2,7 @@
 import pygame as pg
 from vector import Vector
 
-# Write the code or pseudo-code in Python for the Ship class
+# 1. Write the code or pseudo-code in Python for the Ship class
 
 
 class Ship:
@@ -51,6 +51,8 @@ class Ship:
         pg.sprite.groupcollide(self.lasers, fleet.aliens, True, True)
         if not fleet.aliens:
             self.game.restart()
+
+# 2. Write the code or pseudo-code in Python for the Vector class
 
 
 class Vector:
